@@ -8,7 +8,7 @@ const projectID = '1b7801d6-8a66-4be4-a442-89219d833dfc';
 
 const App = () => {
   if (!localStorage.getItem('username')) return <LoginForm />;
-
+// Adding some comment...
   return (
     <ChatEngine
       height="100vh"
